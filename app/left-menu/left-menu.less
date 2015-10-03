@@ -1,0 +1,63 @@
+#left-menu {
+    width: 220px;
+
+    float: left;
+    min-height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #d9d9d9;
+    z-index: 3;
+
+    .logo {
+        background-color: #557ebb;
+        border-bottom: 1px solid #426493;
+        padding: 22px;
+        img {
+            height: 50px;
+        }
+    }
+    .name {
+        background-color: #3b5b86;
+        border-bottom: 1px solid #ced6e1;
+        a {
+            color: #557ebb;
+        }
+    }
+
+    a {
+        padding-left: 20px;
+        display: block;
+        line-height: 48px;
+        color: @text-color;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .level2 {
+        padding-left: 30px;
+        background-color: #f7f7f7;
+    }
+
+    .active {
+        background-color: #ececec;
+    }
+
+    .active,
+    .active-arrow {
+        .fa {
+            color: @text-color;
+        }
+    }
+
+    .fa {
+        float: right;
+        color: #d9d9d9;
+        margin-top: 16px;
+        margin-right: 8px;
+    }
+
+    .account {
+        margin-top: 60px;
+    }
+}
